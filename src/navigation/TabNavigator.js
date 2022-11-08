@@ -53,7 +53,7 @@ const TabNavigator = () => {
         >
         {tabs.map(({name, screen, icon}, index) => {
         return(
-            <Tab.Screen
+          <Tab.Screen
             key={name}
             name={name}
             component={screen}
